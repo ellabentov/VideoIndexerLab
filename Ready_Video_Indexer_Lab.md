@@ -45,6 +45,7 @@ Requirements
 
 3.  User account (preferably corporate)
 
+
 Overview. What is video AI?
 ===========================
 
