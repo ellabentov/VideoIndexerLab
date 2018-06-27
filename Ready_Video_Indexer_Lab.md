@@ -141,7 +141,9 @@ Steps
 2.  Click "Sign in" in the top right corner
 
     ![](media/image1.png){width="0.90625in" height="0.53125in"}
-
+    
+        <img src="https://github.com/davidsalgado/VideoIndexerLab/raw/master/media/image1.png" width="0.90625in" height="0.53125in">
+    
 3.  Use your login option of choice
 
 > ![](media/image2.png){width="2.613973097112861in"
