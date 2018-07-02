@@ -45,9 +45,8 @@ Requirements
 
 3.  User account (preferably corporate)
 
-
-Overview. What is video AI?
-===========================
+Overview
+========
 
 What is Video Indexer?
 ----------------------
@@ -86,6 +85,13 @@ Video Indexer
     in general to any industry that has a video library that users need
     to search against.
 
+-   **Content-based Recommendation** -- Insights extracted from the
+    video can also be used to provide deep content-based
+    recommendations. For example: recommendation of additional movies
+    with the actor identified in a movie already watched by the user can
+    be provided by broadcasters, or recommendations for lectures by the
+    same professor can be suggested by a training/educational web site
+
 -   **Monetization** -- Video Indexer can help improve the value of
     videos. As an example, industries that rely on ad revenue (e.g. news
     media, social media, etc.), can deliver more relevant ads by using
@@ -98,7 +104,7 @@ Video Indexer
     example, consider an educational video that explains spheres for the
     first 30 minutes and pyramids in the next 30 minutes. A student
     reading about pyramids would benefit more if the video is positioned
-    starting from the 30-minute marker.
+    starting from the 30-minute marker
 
 -   **Accessibility** - Video Indexer extracts metadata such as the
     spoken words, the people present in a video segment, the text that
@@ -106,11 +112,13 @@ Video Indexer
     content accessible to people with visual and audio disabilities. For
     example, the player widget provided by Video Indexer has built in
     closed captioning support and the insights widget can translate the
-    transcript in to other languages
+    transcript in to other language
 
 -   **Content moderation** - Video Indexer can identify potentially
     offensive textual and visual content and so can be used for content
-    moderation
+    moderation. This is helpful for example for parental control or for
+    making sure that company policy is adhered to in a corporate
+    environment
 
 Exercise 1: Login to video indexer
 ==================================
@@ -131,7 +139,7 @@ Context
     experience with an Azure account.
 
 -   You can login to Video Indexer with a variety of accounts:
-    corporate, Outlook, Gmail, LinkedIn, or Facebook
+    corporate, Outlook, LinkedIn, Gmail or Facebook
 
 Steps 
 ------
@@ -140,11 +148,11 @@ Steps
 
 2.  Click "Sign in" in the top right corner
 
-    ![](media/image1.png){width="0.90625in" height="0.53125in"}
-        
+    ![](MEDIA/media/image1.png){width="0.90625in" height="0.53125in"}
+
 3.  Use your login option of choice
 
-> ![](media/image2.png){width="2.613973097112861in"
+> ![](MEDIA/media/image2.png){width="2.613973097112861in"
 > height="2.9479166666666665in"}
 
 4.  **Welcome!** You now have access to the Video Indexer web
@@ -153,7 +161,7 @@ Steps
     videos. From here you can search in all videos, upload new videos,
     see insights for each specific video and more.
 
-    ![](media/image3.png){width="6.037736220472441in"
+    ![](MEDIA/media/image3.png){width="6.037736220472441in"
     height="2.4834700349956256in"}
 
 Exercise 2: Search within existing files
@@ -175,21 +183,23 @@ Steps
 
 1.  Click on the "Sample Videos" tab to see all sample videos
 
-    ![](media/image4.png){width="2.899806430446194in"
+    ![](MEDIA/media/image4.png){width="2.899806430446194in"
     height="0.5625in"}
 
-2.  On the search bar, search for **Build** in the 'Find Topic' box and
-    for **Satya** in the 'Find People
-    '![](media/image5.png){width="5.735849737532808in"
+2.  On the search bar, search for **Build** in the 'Find topic' box and
+    for **Satya** in the 'Find people
+    '![](MEDIA/media/image5.png){width="5.735849737532808in"
     height="0.8738593613298338in"}
 
 3.  The videos in the gallery will are filtered according to your
     filtering you requested, and each video thumbnail will include a
-    summary of the insights found. In this case we can see visual,
-    transcript, labels and name insights were found. Later in this
-    workshop we will learn more about those insight.
+    summary of the insights found!
 
-> ![](media/image6.png){width="5.78301946631671in"
+    In this case we can see visual, transcript, labels and name insights
+    were found. Later in this workshop we will learn more about those
+    insight.
+
+> ![](MEDIA/media/image6.png){width="5.78301946631671in"
 > height="3.469811898512686in"}
 
 4.  Click **show more filters** to see more filtering options such as
@@ -229,28 +239,35 @@ participants)
 
 2.  Click **Play** to go into the video player page
 
-    ![](media/image7.png){width="2.90625in"
-    height="1.641509186351706in"}
+    ![](MEDIA/media/image7.png){width="2.8541666666666665in"
+    height="2.1145833333333335in"}
 
-3.  In the top of the cognitive insights pane, click on **Transcript**
-    to see the video transcript. The transcript includes the voice to
-    text identified by Video Indexer as well as OCRs, people found,
-    sentiment indications and more.
+3.  In the top of the cognitive insights pane (on the right of the
+    screen), click on **Transcript** to see the video transcript. The
+    transcript includes the voice to text identified by Video Indexer as
+    well as OCRs, people found, sentiment indications and more.
 
-    ![](media/image8.png){width="2.047169728783902in"
+    ![](MEDIA/media/image8.png){width="2.047169728783902in"
     height="0.48463582677165357in"}
 
 4.  Enable the **Autoscroll** toggle on the right to have the transcript
     scroll as the video progress and the current segment highlighted at
     any time
 
-    ![](media/image9.png){width="5.886792432195976in"
+    ![](MEDIA/media/image9.png){width="5.886792432195976in"
     height="3.217610454943132in"}
+
+    Fun note: you can also see the transcript directly in your layer by
+    choosing to **closed captioning** and then **English** in your
+    player actions.
+
+    ![](MEDIA/media/image10.png){width="5.506944444444445in"
+    height="1.2561800087489063in"}
 
 5.  Now, let's explore some of the insights found on this specific
     video. Click on the **Insights** tab to go back to insights summary.
 
-> ![](media/image10.png){width="2.23584864391951in"
+> ![](MEDIA/media/image11.png){width="2.23584864391951in"
 > height="0.5387587489063868in"}
 
 1.  **Celebrity Identification**: Video Indexer identified Satya in the
@@ -258,7 +275,7 @@ participants)
     time and when he made appearances in the video. Use the left and
     right arrows to jump between segments he appears in
 
-    ![](media/image11.png){width="4.020833333333333in"
+    ![](MEDIA/media/image12.png){width="4.020833333333333in"
     height="1.6869455380577427in"}
 
     Video indexer is able identify a large set of celebrities (like
@@ -278,7 +295,7 @@ participants)
     the right and left arrows to navigate to the specific location in
     the video where they appeared.
 
-    ![](media/image12.png){width="5.632075678040245in"
+    ![](MEDIA/media/image13.png){width="5.632075678040245in"
     height="1.453147419072616in"}
 
 3.  **Label identification**: Labels are visual findings in the video,
@@ -293,10 +310,11 @@ participants)
     Note: you can see that some of the labels are less relevant, for
     example 'outdoor', this is the nature of machine learning
     algorithms, it is a prediction tool and, in some cases, may be
-    erroneous. However - looking at the labels still gives you a good
+    erroneous. In this case probably because this movie was shot in a
+    huge space. However - looking at the labels still gives you a good
     idea for what this video is about.
 
-    ![](media/image12.png){width="5.707547025371828in"
+    ![](MEDIA/media/image13.png){width="5.707547025371828in"
     height="0.8817432195975503in"}
 
 4.  Video Indexer identified two **brands** in this video, that Satya
@@ -305,7 +323,7 @@ participants)
     location in the video where they appeared and to use show
     description to see their Wikipedia abstract.
 
-    ![](media/image13.png){width="5.716981627296588in"
+    ![](MEDIA/media/image14.png){width="5.716981627296588in"
     height="1.6277515310586177in"}
 
 5.  **Sentiment**: Video Indexer has also identified the different
@@ -314,22 +332,21 @@ participants)
     that oveall (insuprosingly) Satya expressed mostly positive
     sentiments in his keynote.
 
-    ![](media/image14.png){width="5.754716754155731in"
+    ![](MEDIA/media/image15.png){width="5.754716754155731in"
     height="1.1927515310586176in"}
 
 <!-- -->
 
-6.  All this information that you can browse on the widgets comes from a
-    JSON file that it's what the developer would need to work with if
-    they're building a custom solution. Open the JSON file click the
-    **{}** button at the bottom left of the video player.
+6.  **Open the JSON file** by clicking on the **{}** button at the
+    bottom left of the video player.
 
-> ![](media/image15.png){width="1.1770942694663167in"
+> ![](MEDIA/media/image16.png){width="1.1770942694663167in"
 > height="0.447917760279965in"}
 
-As you can see the JSON file has all the information that you have seen
-on the widgets, and more, you will be able to explore the JSON file in
-more detail in Exercise 8 below.
+All this information that you can browse on the widgets comes from a
+JSON file that it's what the developer would need to work with if
+they're building a custom solution. You will be able to explore the JSON
+file in more detail in Exercise 8 below.
 
 Exercise 4: Upload and Index your own file
 ==========================================
@@ -348,25 +365,31 @@ Context
 Steps
 -----
 
-1.  Copy this URL to your clipboard <https://aka.ms/VISampleVideo>
+1.  Go back to he video catalog by clicking the top right corner of the
+    screen or by clicking back
+
+    ![](MEDIA/media/image17.png){width="1.6354166666666667in"
+    height="0.4660061242344707in"}
 
 2.  Click the **Upload** button on the top right of your catalog (under
     the search section)
 
-    ![](media/image16.png){width="5.773584864391951in"
+    ![](MEDIA/media/image18.png){width="5.773584864391951in"
     height="1.3395833333333333in"}
 
-3.  Select the **enter file URL** link and paste the URL you copied in
-    step one
+3.  Select the **enter file URL** link and enter the following sample
+    URL address: <https://aka.ms/VISampleVideo>
 
-    ![](media/image17.png){width="2.6526148293963256in"
+    ![](MEDIA/media/image19.png){width="2.6526148293963256in"
     height="2.1132075678040243in"}
 
-4.  Select a 'video name' of your choice for you video and Click
-    **Upload**. The video will start to upload...
+4.  Select a 'video name' of your choice for your video and Click
+    **Upload**.
 
-    ![](media/image18.png){width="4.330670384951881in"
-    height="2.6354166666666665in"}
+    The video will start to upload...
+
+    ![](MEDIA/media/image20.png){width="4.3125in"
+    height="3.192274715660542in"}
 
 5.  The upload may take a few minutes. You can click **Run in the
     background** to continue browsing your existing videos while the
@@ -375,15 +398,15 @@ Steps
 6.  Once the video is uploaded it will added to your catalog under the
     **Account videos** tab and start indexing
 
-    ![](media/image19.png){width="2.4242465004374454in"
+    ![](MEDIA/media/image21.png){width="2.4242465004374454in"
     height="1.367924321959755in"}
 
 7.  **Done!** You have indexed your fist video, you can now explore the
     insights found for this video in the portal as well as on a JSON
     file that a developer could parse on a custom development.
 
-    Try to explore - what interesting insights you can find in this
-    video?
+    Try to explore **- what interesting insights you can find in this
+    video?**
 
 Exercise 5: Embed widgets on your own website
 =============================================
@@ -401,21 +424,22 @@ Steps
 -----
 
 1.  Go back to the "*Build Keynote 2018*", you reviewed in exercise \#3
+    (in the **Sample videos** tab)
 
 2.  Click on the embed (**\</\>**) icon at the bottom of the video
 
-    ![](media/image20.png){width="4.160377296587926in"
-    height="1.2913976377952756in"}
+    ![](MEDIA/media/image22.png){width="3.0555555555555554in"
+    height="1.3958333333333333in"}
 
 3.  A 'share & embed' pop up appears, allowing to copy the iframe code
     to the web site. From here you can choose to create an embedded code
     for the cognitive insights, the video player or both.
 
-> ![](media/image21.png){width="5.000575240594926in"
-> height="3.4270833333333335in"}
+> ![](MEDIA/media/image23.png){width="5.0in" height="3.4375in"}
 
 4.  Optional: to test the iframe copy the 'src' part of the 'Copy embed
-    code' section into a new tab in your browser
+    code' section into a new tab in your browser (see highlighted part
+    in the image above)
 
 Exercise 6: Edit a file
 =======================
@@ -435,38 +459,46 @@ Context
 Steps
 -----
 
-1.  Click **Edit** on the bottom right of the file player you uploaded
+1.  The video you uploaded in exercise \#4 should be ready by now! Go
+    back to the catalog and open that video player.
+
+    ![](MEDIA/media/image24.png){width="2.5625in"
+    height="1.8463429571303587in"}
+
+2.  Click **Edit** on the bottom right of the file player you uploaded
     to go to the video editor
 
-    ![](media/image22.png){width="3.3489096675415575in"
-    height="2.2465594925634296in"}
+    ![](MEDIA/media/image25.png){width="6.493055555555555in"
+    height="1.1805555555555556in"}
 
-2.  In the filter pane on the left-hand side, filter for Keywords =
-    ***industrial revolution***
+3.  In the filter pane on the left-hand side, filter for Keywords =
+    ***business transformation*** and People = ***Satya Nadella*** to
+    create a clip of Satya talking about business transformation
 
-    ![](media/image23.png){width="1.5690332458442695in"
-    height="3.4245286526684167in"}
+    ![](MEDIA/media/image26.png){width="1.53125in"
+    height="3.8924628171478566in"}
 
-3.  In the transcript, hover on Each line and click the **+** action on
-    the right to select it
+4.  The transcript will filter to show only captions that answer your
+    search criteria. Hover on the relevant captions and click the **+**
+    action on the top right of the transcript to select the clip that
+    was filtered
 
-    ![](media/image24.png){width="5.650943788276465in"
-    height="1.0909459755030622in"}
+    ![](MEDIA/media/image27.png){width="6.46875in" height="1.375in"}
 
-4.  Click on the **Preview** button on the right to see your selection
+5.  Click on the **Preview** button on the right to see your selection
     result
 
-    ![](media/image25.png){width="5.822915573053368in"
-    height="3.7395833333333335in"}
+    ![](MEDIA/media/image28.png){width="4.5in"
+    height="2.9571423884514436in"}
 
-5.  Click on the **Publish** button on the right to save your selection
+6.  Click on the **Publish** button on the right to save your selection
     as a new video.
 
-    ![](media/image25.png){width="5.822915573053368in"
-    height="3.7395833333333335in"}
+    ![](MEDIA/media/image29.png){width="4.5in"
+    height="2.951613079615048in"}
 
-6.  A new video that contains a clip from the original video was added
-    to your catalog and start to play.
+7.  A new video that contains a clip from the original video was added
+    to your catalog and start to play!
 
 Exercise 7: Getting started with Video Indexer REST API
 =======================================================
@@ -489,74 +521,82 @@ Context
 Steps
 -----
 
-1.  Go to the API portal <https://api-portal.videoindexer.ai/>. This
-    portal gives you quick and easy access to review and try out the
-    Video Indexer APIs available.
+1.  Open a new tab on your browser
 
-2.  You are probably already logged in via SSO but if not, login with
+2.  Go to the API portal <https://api-portal.videoindexer.ai/>.\
+    This portal gives you quick and easy access to review and try out
+    the Video Indexer APIs available.
+
+3.  You are probably already logged in via SSO but if not, login with
     the same credentials you logged into the service in exercise \#1
 
-    ![](media/image26.png){width="0.9166666666666666in"
+    ![](MEDIA/media/image30.png){width="0.9166666666666666in"
     height="0.4583333333333333in"}
 
-3.  Select the **Product**s tab
+4.  Select the **Product**s tab
 
-    ![](media/image27.png){width="3.125in"
+    ![](MEDIA/media/image31.png){width="3.125in"
     height="0.4270833333333333in"}
 
-4.  Select **Authorization** and subscribe to the
-    API![](media/image28.png){width="5.802083333333333in"
+5.  Select **Authorization** and subscribe to the
+    API![](MEDIA/media/image32.png){width="5.802083333333333in"
     height="0.7395833333333334in"}I.
 
-5.  Select **Subscribe**
+6.  Select **Subscribe**
 
-    ![](media/image29.png){width="1.896227034120735in"
+    ![](MEDIA/media/image33.png){width="1.896227034120735in"
     height="1.3694969378827646in"}
 
-6.  Select **Confirm**
+7.  Select **Confirm**
 
-    ![](media/image30.png){width="4.197749343832021in"
+    ![](MEDIA/media/image34.png){width="4.197749343832021in"
     height="1.73584864391951in"}
 
-7.  Select the **APIs** tab
+8.  Select the **APIs** tab
 
-    ![](media/image31.png){width="3.1666666666666665in"
+    ![](MEDIA/media/image35.png){width="3.1666666666666665in"
     height="0.3645833333333333in"}
 
-8.  Choose **Authorization** to get the token to call the API operations
+9.  Choose **Authorization** to get the token to call the API operations
     with. Note that this token is valid for one hour.
 
-    ![](media/image32.png){width="4.267051618547682in"
+    ![](MEDIA/media/image36.png){width="4.267051618547682in"
     height="0.9433956692913386in"}
 
-9.  Select the **GetAccounts** API call and click **Try It. **
+10. Select the **GetAccounts** API call or the left side of the screen
+
+    ![](MEDIA/media/image37.png){width="2.4291666666666667in"
+    height="0.5520833333333334in"}
+
+11. click **Try It. **
 
     Clicking try it on any API call in this web site, will allow you to
     try the API call with your own parameters without needing to write
     any code. In this case, we are trying to get the account information
     in order to call other operations.
 
-    ![](media/image33.png){width="6.5in"
+    ![](MEDIA/media/image37.png){width="6.5in"
     height="1.9659722222222222in"}
 
-10. Fill in the parameters: *location = **trial***,
+12. Fill in the parameters: *location = **trial***,
     *generateAccessToken=**true***, *allowEdit=**true ***to get access
     token to the account you used in this workshop
 
-> ![](media/image34.png){width="4.635416666666667in"
+> ![](MEDIA/media/image38.png){width="4.635416666666667in"
 > height="2.0586996937882764in"}
 
-11. Scroll to the bottom of the page and click **Send**
+13. Scroll to the bottom of the page and click **Send**
 
-    ![](media/image35.png){width="0.8645833333333334in"
+    ![](MEDIA/media/image39.png){width="0.8645833333333334in"
     height="0.4166666666666667in"}
 
-12. In the result you will get your **account id** and **access token**.
+14. In the result you will get your **account id** and **access token**.
 
-    **Important**: Copy the account id and access token or keep the
-    result page open as you will need them for later API calls
+    **\*\*\*Important\*\*\***: **Copy the account id and access token to
+    a notepad file or keep the result page open as you will need them
+    for later API calls in exercise \#8.**
 
-> ![](media/image36.png){width="6.5in"
+> ![](MEDIA/media/image40.png){width="6.5in"
 > height="2.6979166666666665in"}
 
 Exercise 8: Invoke a sample service
@@ -576,39 +616,56 @@ Steps
 1.  Go to the **API** tab again and choose **Operations** to review all
     the REST API calls available to you in video indexer.
 
-    ![](media/image37.png){width="6.5in" height="1.59375in"}
+    ![](MEDIA/media/image41.png){width="6.5in" height="1.59375in"}
 
     For this workshop, we will use the API to get insights on the same
     video we uploaded in previous exercise
 
-2.  Choose the **ListVideos** API call, click **Try it** and fill in the
-    parameters: *location = **trial** and **account id** and **account
-    token** from the GetAccountscall* from the previous exercise
+2.  Choose the **ListVideos** API call in the left side of the screen
+    (tip: you can use the search bar on the top to find it)
 
-    ![](media/image38.png){width="4.386792432195976in"
+    ![](MEDIA/media/image42.png){width="1.5625in" height="0.375in"}
+
+3.  click **Try it** and fill in the parameters: *location = **trial**
+    and **account id** and **account token** from the GetAccountscall*
+    from the previous exercise
+
+    ![](MEDIA/media/image43.png){width="4.386792432195976in"
     height="1.8906321084864393in"}
 
-3.  Scroll to the bottom of the page and click **Send**
+4.  Scroll to the bottom of the page and click **Send**
 
-4.  Your account first result will include the video that you uploaded.
+5.  Your account first result will include the video that you uploaded
+    in exercise \#4.
 
-    **Important**: Copy the video id or keep the result page open as you
-    will need them for later API calls
+    **\*\*\*Important\*\*\*: Copy the video id (called" id" in the
+    result) to notepad or keep the result page open as you will need
+    them for later API calls in this exercise**
 
-    ![](media/image39.png){width="3.415094050743657in"
+    ![](MEDIA/media/image44.png){width="3.415094050743657in"
     height="0.8572364391951006in"}
 
-5.  Now choose the **GetVideoIndex** call, click **Try it** and fill in
-    the parameters: *location = **trial** and* **account id** and
-    **account token** from the *GetAccounts* call result, and **video
-    Id** from *ListVideos* result from the previous steps.
+6.  Now choose the **GetVideoIndex** call in the left side of the screen
 
-    ![](media/image40.png){width="5.349056211723535in"
-    height="1.8561679790026246in"}
+    ![](MEDIA/media/image45.png){width="1.7083333333333333in"
+    height="0.4166666666666667in"}
 
-6.  Scroll to the bottom of the page and click **Send**
+7.  click **Try it** and fill in the parameters:
 
-7.  The result will be in JSON format and includes all the insights
+    a.  *location = **trial** and*
+
+    b.  **account id** from the *GetAccounts* call result
+
+    c.  **account token** from the *GetAccounts* call result
+
+    d.  **video Id** from *ListVideos call* result
+
+        ![](MEDIA/media/image46.png){width="5.349056211723535in"
+        height="1.8561679790026246in"}
+
+8.  Scroll to the bottom of the page and click **Send**
+
+9.  The result will be in JSON format and includes all the insights
     found on the Video.
 
     Some insights in this result are not yet available in the Service.
