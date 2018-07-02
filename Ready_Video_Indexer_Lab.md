@@ -148,11 +148,11 @@ Steps
 
 2.  Click "Sign in" in the top right corner
 
-    ![](MEDIA/media/image1.png)
+    ![](media/image1.png)
 
 3.  Use your login option of choice
 
-> ![](MEDIA/media/image2.png)
+> ![](media/image2.png)
 
 4.  **Welcome!** You now have access to the Video Indexer web
     experience. After logging in you will be dropped into the Video
@@ -160,7 +160,7 @@ Steps
     videos. From here you can search in all videos, upload new videos,
     see insights for each specific video and more.
 
-    ![](MEDIA/media/image3.png)
+    ![](media/image3.png)
 
 Exercise 2: Search within existing files
 ========================================
