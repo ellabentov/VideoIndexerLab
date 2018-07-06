@@ -164,6 +164,7 @@ Steps
 Exercise 2: Search within existing files
 ========================================
 
+# Exercise 2: Search within existing files
 *Duration: 4 minutes*
 
 Context
