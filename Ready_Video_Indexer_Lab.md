@@ -254,7 +254,7 @@ participants)
     player actions.
 
     ![](media/image10.png)
-    
+
 5.  Now, let's explore some of the insights found on this specific
     video. Click on the **Insights** tab to go back to insights summary.
 
@@ -415,7 +415,7 @@ Steps
 
 > ![](media/image23.png)
 
-4.  Optional: to test the iframe copy the 'src' part of the 'Copy embed
+1.  Optional: to test the iframe copy the 'src' part of the 'Copy embed
     code' section into a new tab in your browser (see highlighted part
     in the image above)
 
@@ -485,7 +485,7 @@ Context
     Indexer REST API
 
 -   Getting started and evaluating the REST API is simple and straight
-    forward and does not require any coding skill!
+    forward and **does not require any coding skill!**
 
 -   The Video Indexer rest API is unique in the industry by the fact
     that it enables you to use it in a client to server architecture (as
@@ -505,60 +505,45 @@ Steps
 
     ![](media/image30.png)
 
-4.  Select the **Product**s tab
+4.  Select the **APIs** tab
 
     ![](media/image31.png)
 
-5.  Select **Authorization** and subscribe to the
-    API![](media/image32.png)
+5.  Choose **Authorization** to get the token to call the API operations
+    with. Note that this token is valid for one hour.
 
-6.  Select **Subscribe**
+    ![](media/image32.png)
+
+6.  Select the **GetAccounts** API call or the left side of the screen
 
     ![](media/image33.png)
 
-7.  Select **Confirm**
+7.  click **Try It. **
 
-    ![](media/image34.png)
+    Clicking 'try it' on any API call in this web site, will allow you
+    to try the API call with your own parameters without needing to
+    write any code. In this case, we are trying to get the account
+    information in order to call other operations.
 
-8.  Select the **APIs** tab
+    ![](media/image33.png)
 
-    ![](media/image35.png)
-
-9.  Choose **Authorization** to get the token to call the API operations
-    with. Note that this token is valid for one hour.
-
-    ![](media/image36.png)
-
-10. Select the **GetAccounts** API call or the left side of the screen
-
-    ![](media/image37.png)
-
-11. click **Try It. **
-
-    Clicking try it on any API call in this web site, will allow you to
-    try the API call with your own parameters without needing to write
-    any code. In this case, we are trying to get the account information
-    in order to call other operations.
-
-    ![](media/image37.png)
-
-12. Fill in the parameters: *location = **trial***,
+8.  Fill in the parameters: *location = **trial***,
     *generateAccessToken=**true***, *allowEdit=**true ***to get access
     token to the account you used in this workshop
 
-> ![](media/image38.png)
+> ![](media/image34.png)
 
-13. Scroll to the bottom of the page and click **Send**
+9.  Scroll to the bottom of the page and click **Send**
 
-    ![](media/image39.png)
+    ![](media/image35.png)
 
-14. In the result you will get your **account id** and **access token**.
+10. In the result you will get your **account id** and **access token**.
 
     **\*\*\*Important\*\*\***: **Copy the account id and access token to
     a notepad file or keep the result page open as you will need them
     for later API calls in exercise \#8.**
 
-> ![](media/image40.png)
+> ![](media/image36.png)
 
 Exercise 8: Invoke a sample service
 ===================================
@@ -569,7 +554,7 @@ Context
 -------
 
 -   Now that you are authorized to the API and have your access token
-    available, you can try out some of the function
+    available, you can try out some of the functions...
 
 Steps
 -----
@@ -577,7 +562,7 @@ Steps
 1.  Go to the **API** tab again and choose **Operations** to review all
     the REST API calls available to you in video indexer.
 
-    ![](media/image41.png)
+    ![](media/image37.png)
 
     For this workshop, we will use the API to get insights on the same
     video we uploaded in previous exercise
@@ -585,13 +570,13 @@ Steps
 2.  Choose the **ListVideos** API call in the left side of the screen
     (tip: you can use the search bar on the top to find it)
 
-    ![](media/image42.png)
+    ![](media/image38.png)
 
 3.  click **Try it** and fill in the parameters: *location = **trial**
     and **account id** and **account token** from the GetAccountscall*
     from the previous exercise
 
-    ![](media/image43.png)
+    ![](media/image39.png)
 
 4.  Scroll to the bottom of the page and click **Send**
 
@@ -602,11 +587,11 @@ Steps
     result) to notepad or keep the result page open as you will need
     them for later API calls in this exercise**
 
-    ![](media/image44.png)
+    ![](media/image40.png)
 
 6.  Now choose the **GetVideoIndex** call in the left side of the screen
 
-    ![](media/image45.png)
+    ![](media/image41.png)
 
 7.  click **Try it** and fill in the parameters:
 
@@ -618,7 +603,7 @@ Steps
 
     d.  **video Id** from *ListVideos call* result
 
-        ![](media/image46.png)
+        ![](media/image42.png)
 
 8.  Scroll to the bottom of the page and click **Send**
 
