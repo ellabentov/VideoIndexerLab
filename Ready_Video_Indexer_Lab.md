@@ -120,8 +120,10 @@ Video Indexer
     making sure that company policy is adhered to in a corporate
     environment
 
-# Exercise 1: Login to video indexer
+Exercise 1: Login to video indexer
+==================================
 
+# Exercise 1: Login to video indexer
 *Duration: 2 minutes (easy!)*
 
 Context
@@ -205,6 +207,7 @@ Steps
 Exercise 3: Review insights in a file
 =====================================
 
+# Exercise 3: Review insights in a file
 *Duration: 10 minutes*
 
 Context
@@ -335,6 +338,7 @@ file in more detail in Exercise 8 below.
 Exercise 4: Upload and Index your own file
 ==========================================
 
+# Exercise 4: Upload and Index your own file
 *Duration: 5 minutes*
 
 Context
@@ -390,6 +394,7 @@ Steps
 Exercise 5: Embed widgets on your own website
 =============================================
 
+# Exercise 5: Embed widgets on your own website
 *Duration: 4 minutes*
 
 Context
@@ -422,6 +427,7 @@ Steps
 Exercise 6: Edit a file
 =======================
 
+# Exercise 6: Edit a file
 *Duration: 5 minutes*
 
 Context
@@ -476,6 +482,7 @@ Steps
 Exercise 7: Getting started with Video Indexer REST API
 =======================================================
 
+# Exercise 7: Getting started with Video Indexer REST API
 *Duration: 7 minutes*
 
 Context
@@ -548,6 +555,7 @@ Steps
 Exercise 8: Invoke a sample service
 ===================================
 
+# Exercise 8: Invoke a sample service
 *Duration: 7 minutes*
 
 Context
