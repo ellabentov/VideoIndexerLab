@@ -120,8 +120,7 @@ Video Indexer
     making sure that company policy is adhered to in a corporate
     environment
 
-Exercise 1: Login to video indexer
-==================================
+# Exercise 1: Login to video indexer
 
 *Duration: 2 minutes (easy!)*
 
