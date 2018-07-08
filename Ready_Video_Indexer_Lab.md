@@ -120,10 +120,11 @@ Video Indexer
     making sure that company policy is adhered to in a corporate
     environment
 
-Exercise 1: Login to video indexer
-==================================
+Next> Exercise 1: Login to video indexer
+========================================
 
 # Exercise 1: Login to video indexer
+
 *Duration: 2 minutes (easy!)*
 
 Context
@@ -163,10 +164,11 @@ Steps
 
     ![](media/image3.png)
 
-Exercise 2: Search within existing files
-========================================
+Next > Exercise 2: Search within existing files
+===============================================
 
 # Exercise 2: Search within existing files
+
 *Duration: 4 minutes*
 
 Context
@@ -204,10 +206,11 @@ Steps
 
 5.  Click **Clear search** to start over.
 
-Exercise 3: Review insights in a file
-=====================================
+Next > Exercise 3: Review insights in a file
+============================================
 
 # Exercise 3: Review insights in a file
+
 *Duration: 10 minutes*
 
 Context
@@ -335,10 +338,11 @@ JSON file that it's what the developer would need to work with if
 they're building a custom solution. You will be able to explore the JSON
 file in more detail in Exercise 8 below.
 
-Exercise 4: Upload and Index your own file
-==========================================
+Next> Exercise 4: Upload and Index your own file
+================================================
 
 # Exercise 4: Upload and Index your own file
+
 *Duration: 5 minutes*
 
 Context
@@ -391,10 +395,11 @@ Steps
     Try to explore **- what interesting insights you can find in this
     video?**
 
-Exercise 5: Embed widgets on your own website
-=============================================
+Next> Exercise 5: Embed widgets on your own website
+===================================================
 
 # Exercise 5: Embed widgets on your own website
+
 *Duration: 4 minutes*
 
 Context
@@ -420,14 +425,15 @@ Steps
 
 > ![](media/image23.png)
 
-1.  Optional: to test the iframe copy the 'src' part of the 'Copy embed
+4.  Optional: to test the iframe copy the 'src' part of the 'Copy embed
     code' section into a new tab in your browser (see highlighted part
     in the image above)
 
-Exercise 6: Edit a file
-=======================
+Next> Exercise 6: Edit a file
+=============================
 
 # Exercise 6: Edit a file
+
 *Duration: 5 minutes*
 
 Context
@@ -479,10 +485,11 @@ Steps
 7.  A new video that contains a clip from the original video was added
     to your catalog and start to play!
 
-Exercise 7: Getting started with Video Indexer REST API
-=======================================================
+Next> Exercise 7: Getting started with Video Indexer REST API
+=============================================================
 
 # Exercise 7: Getting started with Video Indexer REST API
+
 *Duration: 7 minutes*
 
 Context
@@ -552,10 +559,11 @@ Steps
 
 > ![](media/image36.png)
 
-Exercise 8: Invoke a sample service
-===================================
+Next> Exercise 8: Invoke a sample service
+=========================================
 
 # Exercise 8: Invoke a sample service
+
 *Duration: 7 minutes*
 
 Context
