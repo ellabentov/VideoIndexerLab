@@ -35,6 +35,9 @@ in this workshop, including customizing the catalog vocabulary, brands
 and faces, updating the video transcript, integration with Flow and
 connecting to an Azure subscription.
 
+Next. Requirements
+==================
+
 # Requirements
 
 1.  Internet connection
@@ -43,8 +46,9 @@ connecting to an Azure subscription.
 
 3.  User account (preferably corporate)
 
-# Overview
+Next. Overview
 
+# Overview
 
 What is Video Indexer?
 ----------------------
@@ -118,7 +122,7 @@ Video Indexer
     making sure that company policy is adhered to in a corporate
     environment
 
-Next> Exercise 1: Login to video indexer
+Next. Login to video indexer
 ========================================
 
 # Exercise 1: Login to video indexer
@@ -162,7 +166,7 @@ Steps
 
     ![](media/image3.png)
 
-Next > Exercise 2: Search within existing files
+Next. Search within existing files
 ===============================================
 
 # Exercise 2: Search within existing files
@@ -204,7 +208,7 @@ Steps
 
 5.  Click **Clear search** to start over.
 
-Next > Exercise 3: Review insights in a file
+Next. Review insights in a file
 ============================================
 
 # Exercise 3: Review insights in a file
@@ -336,7 +340,7 @@ JSON file that it's what the developer would need to work with if
 they're building a custom solution. You will be able to explore the JSON
 file in more detail in Exercise 8 below.
 
-Next> Exercise 4: Upload and Index your own file
+Next. Upload and Index your own file
 ================================================
 
 # Exercise 4: Upload and Index your own file
@@ -393,7 +397,7 @@ Steps
     Try to explore **- what interesting insights you can find in this
     video?**
 
-Next> Exercise 5: Embed widgets on your own website
+Next. Embed widgets on your own website
 ===================================================
 
 # Exercise 5: Embed widgets on your own website
@@ -427,7 +431,7 @@ Steps
     code' section into a new tab in your browser (see highlighted part
     in the image above)
 
-Next> Exercise 6: Edit a file
+Next. Edit a file
 =============================
 
 # Exercise 6: Edit a file
@@ -483,7 +487,7 @@ Steps
 7.  A new video that contains a clip from the original video was added
     to your catalog and start to play!
 
-Next> Exercise 7: Getting started with Video Indexer REST API
+Next. Getting started with Video Indexer REST API
 =============================================================
 
 # Exercise 7: Getting started with Video Indexer REST API
@@ -557,7 +561,7 @@ Steps
 
 > ![](media/image36.png)
 
-Next> Exercise 8: Invoke a sample service
+Next. Invoke a sample service
 =========================================
 
 # Exercise 8: Invoke a sample service
