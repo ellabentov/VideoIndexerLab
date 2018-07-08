@@ -6,8 +6,7 @@ title: |
 
 **Technical workshop**
 
-Abstract and learning objectives
-================================
+# Abstract and learning objectives
 
 At the end of this workshop you will have a good understanding of the
 kind of information that can be extracted from video and audio content,
@@ -31,13 +30,12 @@ This workshop will go over:
 
 -   Getting started with Video Indexer API
 
-There is much more you can do with VideoIndxer and that is not included
+There is much more you can do with VideoIndexer and that is not included
 in this workshop, including customizing the catalog vocabulary, brands
 and faces, updating the video transcript, integration with Flow and
 connecting to an Azure subscription.
 
-Requirements
-============
+# Requirements
 
 1.  Internet connection
 
@@ -45,8 +43,8 @@ Requirements
 
 3.  User account (preferably corporate)
 
-Overview
-========
+# Overview
+
 
 What is Video Indexer?
 ----------------------
