@@ -635,14 +635,12 @@ Steps
     You can use search for some examples in the response:
 
     a.  Search for "*visualContentModeration*" and
-        "t*extualContentModeration*" to find content moderation insights
-        results
-
+        "*textualContentModeration*" to find content moderation insights
+        result
         **Content moderations insights** allow you to find and alert on
         inappropriate or offensive content in your videos.
 
     b.  Search for "*keyFrames*" to find keyFrame results
-
         **Keyframe insights** allow you to identify still images
         representing scenes in videos, to be later used for thumbnails,
         or clips representing the video
