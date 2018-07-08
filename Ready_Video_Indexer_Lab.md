@@ -642,7 +642,8 @@ Steps
         representing scenes in videos, to be later used for thumbnails,
         or clips representing the video
 
-Congratulations!
+
+# Congratulations!
 
 You successfully completed the Video Indexer workshop!
 
