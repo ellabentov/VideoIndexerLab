@@ -46,7 +46,7 @@ Next. Requirements
 
 3.  User account (preferably corporate)
 
-Next. Overview
+
 
 Next. Overview
 ==============
