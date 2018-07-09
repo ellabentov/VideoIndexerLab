@@ -47,7 +47,6 @@ Next. Requirements
 3.  User account (preferably corporate)
 
 
-
 Next. Overview
 ==============
 
@@ -151,7 +150,10 @@ Context
 Steps 
 ------
 
-1.  Go to <https://www.videoindexer.ai/>
+1.  Go to 
+
+
+        https://www.videoindexer.ai/
 
 2.  Click "Sign in" in the top right corner
 
@@ -159,7 +161,7 @@ Steps
 
 3.  Use your login option of choice
 
-> ![](media/image2.png)
+    ![](media/image2.png)
 
 4.  **Welcome!** You now have access to the Video Indexer web
     experience. After logging in you will be dropped into the Video
@@ -194,7 +196,8 @@ Steps
 
 2.  On the search bar, search for **Build** in the 'Find topic' box and
     for **Satya** in the 'Find people
-    '![](media/image5.png)
+    
+    ![](media/image5.png)
 
 3.  The videos in the gallery will are filtered according to your
     filtering you requested, and each video thumbnail will include a
@@ -204,7 +207,7 @@ Steps
     were found. Later in this workshop we will learn more about those
     insight.
 
-> ![](media/image6.png)
+    ![](media/image6.png)
 
 4.  Click **show more filters** to see more filtering options such as
     filtering by specific types of insights or specific languages.
@@ -269,7 +272,7 @@ participants)
 5.  Now, let's explore some of the insights found on this specific
     video. Click on the **Insights** tab to go back to insights summary.
 
-> ![](media/image11.png)
+    ![](media/image11.png)
 
 1.  **Celebrity Identification**: Video Indexer identified Satya in the
     video, you can see his name, role and biography, as well as how much
@@ -331,12 +334,10 @@ participants)
 
     ![](media/image15.png)
 
-<!-- -->
-
 6.  **Open the JSON file** by clicking on the **{}** button at the
     bottom left of the video player.
 
-> ![](media/image16.png)
+    ![](media/image16.png)
 
 All this information that you can browse on the widgets comes from a
 JSON file that it's what the developer would need to work with if
@@ -373,7 +374,9 @@ Steps
     ![](media/image18.png)
 
 3.  Select the **enter file URL** link and enter the following sample
-    URL address: <https://aka.ms/VISampleVideo>
+    URL address: 
+    
+        https://aka.ms/VISampleVideo
 
     ![](media/image19.png)
 
@@ -428,7 +431,7 @@ Steps
     to the web site. From here you can choose to create an embedded code
     for the cognitive insights, the video player or both.
 
-> ![](media/image23.png)
+   ![](media/image23.png)
 
 4.  Optional: to test the iframe copy the 'src' part of the 'Copy embed
     code' section into a new tab in your browser (see highlighted part
@@ -515,7 +518,9 @@ Steps
 
 1.  Open a new tab on your browser
 
-2.  Go to the API portal <https://api-portal.videoindexer.ai/>.\
+2.  Go to the API portal:
+
+        https://api-portal.videoindexer.ai/
     This portal gives you quick and easy access to review and try out
     the Video Indexer APIs available.
 
@@ -550,7 +555,7 @@ Steps
     *generateAccessToken=**true***, *allowEdit=**true ***to get access
     token to the account you used in this workshop
 
-> ![](media/image34.png)
+    ![](media/image34.png)
 
 9.  Scroll to the bottom of the page and click **Send**
 
@@ -562,7 +567,7 @@ Steps
     a notepad file or keep the result page open as you will need them
     for later API calls in exercise \#8.**
 
-> ![](media/image36.png)
+    ![](media/image36.png)
 
 Next. Invoke a sample service
 =========================================
@@ -624,7 +629,7 @@ Steps
 
     d.  **video Id** from *ListVideos call* result
 
-        ![](media/image42.png)
+    ![](media/image42.png)
 
 8.  Scroll to the bottom of the page and click **Send**
 
@@ -637,12 +642,10 @@ Steps
     a.  Search for "*visualContentModeration*" and
         "t*extualContentModeration*" to find content moderation insights
         results
-
         **Content moderations insights** allow you to find and alert on
         inappropriate or offensive content in your videos.
 
     b.  Search for "*keyFrames*" to find keyFrame results
-
         **Keyframe insights** allow you to identify still images
         representing scenes in videos, to be later used for thumbnails,
         or clips representing the video
