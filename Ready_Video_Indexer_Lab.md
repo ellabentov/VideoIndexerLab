@@ -30,10 +30,10 @@ This workshop will go over:
 
 -   Getting started with Video Indexer API
 
-There is much more you can do with VideoIndexer and that is not included
+There is much more you can do with Video Indexer and that is not included
 in this workshop, including customizing the catalog vocabulary, brands
 and faces, updating the video transcript, integration with Flow and
-connecting to an Azure subscription.
+connecting to an Azure subscription. 
 
 Next. Requirements
 ==================
@@ -150,7 +150,7 @@ Context
 Steps 
 ------
 
-1.  Go to 
+1.  Open hte browser and go to:
 
 
         https://www.videoindexer.ai/
@@ -640,12 +640,12 @@ Steps
     You can use search for some examples in the response:
 
     a.  Search for "*visualContentModeration*" and
-        "t*extualContentModeration*" to find content moderation insights
-        results
+        "textualContentModeration*" to find content moderation insights
+        results. 
         **Content moderations insights** allow you to find and alert on
         inappropriate or offensive content in your videos.
 
-    b.  Search for "*keyFrames*" to find keyFrame results
+    b.  Search for "*keyFrames*" to find keyFrame results. 
         **Keyframe insights** allow you to identify still images
         representing scenes in videos, to be later used for thumbnails,
         or clips representing the video
