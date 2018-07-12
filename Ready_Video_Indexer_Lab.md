@@ -62,7 +62,7 @@ advanced insights from video and audio files**: spoken words, faces,
 celebrity and custom face identification, objects, sentiments, brands
 and more.
 
-VI includes a **REST API** that developer can use to build custom
+VI includes a **REST API** that developers can use to build custom
 solutions, as well as **widgets** that can be directly embedded into
 customer applications, and a **web-based experience** that can be used
 to explore the possibilities of the service as well as be used as a
@@ -183,7 +183,7 @@ Context
 
 -   From the Video Indexer portal, you can search for insights on
     indexed video and audio across your catalog. This includes
-    identifying celebrities, detecting keyworks and labels, finding
+    identifying celebrities, detecting keywords and labels, finding
     brands and much more. Let's start by searching across sample videos
     that were already indexed for you.
 
@@ -194,22 +194,22 @@ Steps
 
     ![](media/image4.png)
 
-2.  On the search bar, search for **Build** in the 'Find topic' box and
-    for **Satya** in the 'Find people
+2.  On the search bar, search for **Build** in the 'Find topics' box and
+    for **Satya** in the 'Find people'
     
     ![](media/image5.png)
 
-3.  The videos in the gallery will are filtered according to your
+3.  The videos in the gallery will be filtered according to your
     filtering you requested, and each video thumbnail will include a
     summary of the insights found!
 
     In this case we can see visual, transcript, labels and name insights
     were found. Later in this workshop we will learn more about those
-    insight.
+    insights.
 
     ![](media/image6.png)
 
-4.  Click **show more filters** to see more filtering options such as
+4.  Click **Show more filters** to see more filtering options such as
     filtering by specific types of insights or specific languages.
 
 5.  Click **Clear search** to start over.
@@ -225,7 +225,7 @@ Context
 -------
 
 -   For each video you can see the cognitive insights found for the
-    video and track them as the video run. This include a broad set of
+    video and track them as the video runs. This includes a broad set of
     insight types, such as people recognition, celebrity identification,
     keywords extraction, label extraction, brand identification,
     sentiment analysis, keyframe analysis and more.
@@ -258,7 +258,7 @@ participants)
     ![](media/image8.png)
 
 4.  Enable the **Autoscroll** toggle on the right to have the transcript
-    scroll as the video progress and the current segment highlighted at
+    scroll as the video progresses and the current segment will be highlighted at
     any time
 
     ![](media/image9.png)
@@ -305,7 +305,7 @@ participants)
 
     In this case, the labels: "*man", "standing", "indoor*" really
     reflect on what we see in the video. As in Keywords, you can use the
-    show more to see the full set of keywords found and to use right and
+    show all to see the full set of labels found and to use right and
     left arrows to navigate to the specific location in the video where
     they appeared.
 
@@ -329,7 +329,7 @@ participants)
 5.  **Sentiment**: Video Indexer has also identified the different
     sentiments that appear through the video, click on each segment to
     see what actually happened in the video to drive that. you can see
-    that oveall (insuprosingly) Satya expressed mostly positive
+    that oveall (unsuprosingly) Satya expressed mostly positive
     sentiments in his keynote.
 
     ![](media/image15.png)
@@ -354,7 +354,7 @@ Next. Upload and Index your own file
 Context
 -------
 
--   Video Indexer allow you to upload your own video and audio files
+-   Video Indexer allows you to upload your own video and audio files
 
 -   Once a file is uploaded and indexed, it is added to your catalog and
     you can search it and review insights on it, like you did in the
@@ -363,7 +363,7 @@ Context
 Steps
 -----
 
-1.  Go back to he video catalog by clicking the top right corner of the
+1.  Go back to the video catalog by clicking the top right corner of the
     screen or by clicking back
 
     ![](media/image17.png)
@@ -391,7 +391,7 @@ Steps
     background** to continue browsing your existing videos while the
     video is uploading
 
-6.  Once the video is uploaded it will added to your catalog under the
+6.  Once the video is uploaded it will be added to your catalog under the
     **Account videos** tab and start indexing
 
     ![](media/image21.png)
@@ -538,7 +538,7 @@ Steps
 
     ![](media/image32.png)
 
-6.  Select the **GetAccounts** API call or the left side of the screen
+6.  Select the **GetAccounts** API call on the left side of the screen
 
     ![](media/image33.png)
 
@@ -552,7 +552,7 @@ Steps
     ![](media/image33.png)
 
 8.  Fill in the parameters: *location = **trial***,
-    *generateAccessToken=**true***, *allowEdit=**true ***to get access
+    *generateAccessTokens=**true***, *allowEdit=**true ***to get access
     token to the account you used in this workshop
 
     ![](media/image34.png)
@@ -585,7 +585,7 @@ Context
 Steps
 -----
 
-1.  Go to the **API** tab again and choose **Operations** to review all
+1.  Go to the **APIS** tab again and choose **Operations** to review all
     the REST API calls available to you in video indexer.
 
     ![](media/image37.png)
@@ -599,7 +599,7 @@ Steps
     ![](media/image38.png)
 
 3.  click **Try it** and fill in the parameters: *location = **trial**
-    and **account id** and **account token** from the GetAccountscall*
+    and **account id** and **account token** from the GetAccounts call
     from the previous exercise
 
     ![](media/image39.png)
@@ -625,7 +625,7 @@ Steps
 
     b.  **account id** from the *GetAccounts* call result
 
-    c.  **account token** from the *GetAccounts* call result
+    c.  **access token** from the *GetAccounts* call result
 
     d.  **video Id** from *ListVideos call* result
 
